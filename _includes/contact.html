@@ -9,34 +9,22 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
-				<form  action="test" name="Contacted" id="contactForm" netlify>
-					<div class="row control-group">
-						<div class="form-group col-xs-12 floating-label-form-group controls">
-							<label>Name</label>
-							<input type="text" name="name" class="form-control">
-						</div>
-					</div>
-					<div class="row control-group">
-						<div class="form-group col-xs-12 floating-label-form-group controls">
-							<label>Email Address</label>
-							<input type="email" name="email" class="form-control">
-							<p class="help-block text-danger"></p>
-						</div>
-					</div>
-					<div class="row control-group">
-						<div class="form-group col-xs-12 floating-label-form-group controls">
-							<label>Message</label>
-							<textarea rows="5" name="message" class="form-control"></textarea>
-							<p class="help-block text-danger"></p>
-						</div>
-					</div>
-					<br>
-					<div id="success"></div>
-					<div class="row">
-						<div class="form-group col-xs-12">
-							<button type="submit" class="btn btn-success btn-lg">Send</button>
-						</div>
-					</div>
+				<form name="contact" action="thank-you" netlify>
+				  <p>
+				    <label>Your Name:</label>
+				    <input type="text" name="name">
+				  </p>
+				  <p>
+				    <label>Your Email</label>
+				    <input type="email" name="email">
+				  </p>
+				  <p>
+				    <label>Message</label>
+				    <textarea name="message"></textarea>
+				  </p>
+				  <p>
+				    <button>Send</button>
+				  </p>
 				</form>
 			</div>
 		</div>
