@@ -3,7 +3,7 @@ baseurl: ""
 url: "http://www.caseysstucco.com"
 markdown: kramdown
 
-description: Casey's Stucco is local Livermore Stucco Expert with over 30 years of experience!
+description: Casey's Stucco is a local Livermore, California Stucco Repair Expert with over 30 years of experience in the industry.
 
 exclude:
   - Gemfile
