@@ -1,17 +1,27 @@
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive top-img animated rollIn" src="img/profile.png" alt="{{site.title}} - Livermore Stucco">
-                    <div class="intro-text">
-                        <h1>Your Trusted Livermore Stucco Expert</h1>
-                        <h3>Free Honest Quote - Over 30+ Years Experience</h3>
-                    </div>
-                    <div class="row-spacer-30 page-scroll"><a class="cta-btn" href="#contact">Let's Get Started</a></div>
-                    <br>
-                    <h4>Small jobs welcome!</h4>
-                </div>
-            </div>
+<!-- Header -->
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <img
+          class="img-responsive top-img animated rollIn"
+          src="img/profile.png"
+          alt="{{site.title}} - {% if page.city %}{{ page.city }}{% else %}Livermore{%
+            endif %} Stucco"
+        />
+        <div class="intro-text">
+          <h1>
+            Your Trusted {% if page.city %}{{ page.city }}{% else %}Livermore{%
+            endif %} Stucco Expert
+          </h1>
+          <h3>Free Honest Quote - Over 30+ Years Experience</h3>
         </div>
-    </header>
+        <div class="row-spacer-30 page-scroll">
+          <a class="cta-btn" href="#contact">Let's Get Started</a>
+        </div>
+        <br />
+        <h4>Small jobs welcome!</h4>
+      </div>
+    </div>
+  </div>
+</header>
