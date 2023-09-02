@@ -22,3 +22,6 @@ color:
 footer:
   copyright: Casey's Stucco
   location: Livermore, California
+
+gems:
+  - jekyll-sitemap
