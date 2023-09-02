@@ -8,6 +8,8 @@ description: Casey's Stucco is a local Livermore, California Stucco Repair Exper
 exclude:
   - Gemfile
   - Gemfile.lock
+  - [vendor]
+  - vendor
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
