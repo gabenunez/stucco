@@ -17,6 +17,53 @@
         %}Livermore{% endif %}, local {% if page.city %}{{ page.city }}{% else
           %}Livermore{% endif %} stucco, stucco expert"
   />
+
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "HomeAndConstructionBusiness",
+	"name": "Casey's Stucco",
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "",
+		"addressLocality": "Sacramento",
+		"addressRegion": "CA",
+		"postalCode": "94203"
+	},
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "R T"
+    }
+  },
+	"telePhone": "925-339-1031",
+	"url": "https://www.caseysstucco.com/",
+	"openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 08:00-17:00",
+	"openingHoursSpecification": [ {
+		"@type": "OpeningHoursSpecification",
+		"dayOfWeek": [
+			"Monday",
+			"Tuesday",
+			"Wednesday",
+			"Thursday",
+			"Friday",
+			"Saturday",
+			"Sunday"
+		],
+		"opens": "08:00",
+		"closes": "17:00"
+	} ],
+	"priceRange":"$$"
+
+}
+</script>
+
   {% if site.meta_author %}
   <meta name="author" content="{{ site.meta_author }}" />
   {% endif %}
