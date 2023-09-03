@@ -1,4 +1,4 @@
-<head>
+<html lang = "en">
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>
@@ -6,12 +6,10 @@
     site.title }}{% endif %}
   </title>
   <meta name="viewport" content="width=device-width" />
-  <meta
-    name="description"
-    content="
-    Casey's Stucco: {% if page.city %}{{ page.city }}{% else
-      %}Livermore{% endif %}'s trusted stucco repair expert with 30+ years of experience. Offering free estimates, exterior stucco & lathing, color coats, repairs, and foam door/window trims. Contact us now!"
-  />
+  <meta name="description" content=" Casey's Stucco: {% if page.city %}{{
+  page.city }}{% else %}Livermore{% endif %}'s trusted stucco repair expert with
+  30+ years of experience. Free estimates, quality repairs & more! Contact us
+  now. />
   <meta
     name="keywords"
     content="{% if page.city %}{{ page.city }}{% else
@@ -24,7 +22,7 @@
   {% endif %}
   <link
     rel="canonical"
-    href="{{ page.url | replace:'index.html','' | prepend: site.url }}"
+    href="{{ page.url | replace:'index.html','' | replace:'.html','' | prepend: site.url }}"
   />
   <link
     rel="alternate"
