@@ -22,11 +22,10 @@
         <p>Above <u>everything</u> else, I'm a hard-working family man.</p>
         <p>
           I've been working in the stucco industry for my entire life (since I
-          was 19 years old). I've completed work on many properties in the {% if
-          page.city %}{{ page.city }}{% else %}Livermore{% endif %} {% unless
-          page.city contains "Area" %}area{% endif %} over the years including
-          celebrity estates, personal homes, businesses, schools, and government
-          agencies.
+          was 19 years old). I've completed work on many properties in the {{
+          page.city }} {% if page.city contains "Area" %}area{% else %}{% endif
+          %} over the years including celebrity estates, personal homes,
+          businesses, schools, and government agencies.
         </p>
         <p>
           My ultimate goal when completing the job is to ensure that everything
