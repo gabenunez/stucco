@@ -23,10 +23,11 @@
         <p>
           I've been working in the stucco industry for my entire life (since I
           was 19 years old). I've completed work on many properties in the {{
-          page.city }} {% if page.city contains "Area" %}area{% else %}{% endif
-          %} over the years including celebrity estates, personal homes,
+          page.city }} {% unless page.city contains "Area" %}area{% endunless %}
+          over the years including celebrity estates, personal homes,
           businesses, schools, and government agencies.
         </p>
+
         <p>
           My ultimate goal when completing the job is to ensure that everything
           was done to the highest standard possible and to leave the property as
